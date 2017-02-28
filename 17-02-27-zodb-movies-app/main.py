@@ -12,3 +12,4 @@ root = connection.root
 root.accounts = BTrees.OOBTree.BTree()
 root.accounts['account-1'] = account.Account('bob')
 transaction.commit()
+connection.close()
